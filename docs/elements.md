@@ -14,6 +14,7 @@ In order to validate Peg-Ins, you'll need RPC-access to your Bitcoin-Core node. 
 First, we need to create the `elements.conf` file which is located in the `datadir`. If you don't specify the datadir at startup, the standard-directory is `<homefolder>/.elements/elements.conf`. Here is an example:
 
 ```
+server=1
 chain=liquidv1
 mainchainrpchost=localhost
 mainchainrpcport=8332
